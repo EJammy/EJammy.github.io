@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on EJam's Secret Space</title><link>https://ejammy.github.io/posts/</link><description>Recent content in Posts on EJam's Secret Space</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 26 Mar 2022 01:29:24 +0800</lastBuildDate><atom:link href="https://ejammy.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World (again?)</title><link>https://ejammy.github.io/posts/hello-world/</link><pubDate>Sat, 26 Mar 2022 01:29:24 +0800</pubDate><guid>https://ejammy.github.io/posts/hello-world/</guid><description>Didn&amp;rsquo;t liked my last blog so I started a new one!
-Testing int main() { return 0; } Math Some equations: $$ \sum_{i=0}^ni=\frac{n*(n+1)}2 $$
-Subtitle headings headings headings headings strike through aaa bbb
-I know that I know nothing.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on EJam's Space</title><link>https://ejammy.github.io/posts/</link><description>Recent content in Posts on EJam's Space</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 26 Mar 2022 01:29:24 +0800</lastBuildDate><atom:link href="https://ejammy.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World (again?)</title><link>https://ejammy.github.io/posts/hello-world/</link><pubDate>Sat, 26 Mar 2022 01:29:24 +0800</pubDate><guid>https://ejammy.github.io/posts/hello-world/</guid><description>Hello!
+Blogging / Website / Portfolio What is this place? I have no idea, but take a look!
+Some Ideas:
+Write tutorials Take notes Personal wiki Showoff Testing int main() { return 0; } Math Some equations: $$ \sum_{i=0}^ni=\frac{n*(n+1)}2 $$
+Title Subtitle headings headings headings headings strike through aaa bbb
+frperg zrffntr&amp;hellip; pbatengf!
+aa
+aaa
+About my last blog It was a mess.</description></item></channel></rss>
