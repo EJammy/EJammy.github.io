@@ -1,6 +1,6 @@
 baseURL: 'https://ejammy.github.io/'
 languageCode: en-us
-title: EJam's Secret Space
+title: EJam's Space
 theme: hugo-PaperMod
 
 params:
@@ -11,11 +11,15 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
+    - identifier: about
+      name: About
+      url: /about
+      weight: 0
 
