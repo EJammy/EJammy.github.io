@@ -1,7 +1,7 @@
 ---
 title: "Package Managers: Getting Softwares on Linux (and MacOS / Windows)"
 date: 2022-04-10T22:02:28+08:00
-draft: true
+draft: false
 tags: ['programming', 'software', 'linux']
 categories: ['Technology']
 ShowToc: false
