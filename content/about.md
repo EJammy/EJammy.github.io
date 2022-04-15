@@ -11,6 +11,7 @@ A jar of jam with an e. I know how to type letters and symbols to make computer 
 - Add chat system (Disqus?)
 - Try out other themes
 - Make my own theme
+- Buy domain name
 
 ## What I'm working on
 - Setting up Linux desktop with manjaro, neovim, and maybe a tiling window manager
