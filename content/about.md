@@ -7,13 +7,15 @@ ShowToc: false
 
 A jar of jam with an e. I know how to type letters and symbols to make computer do stuff.
 
+## TODO
+- Add chat system (Disqus?)
+- Try out other themes
+- Make my own theme
+
 ## What I'm working on
 - Setting up Linux desktop with manjaro, neovim, and maybe a tiling window manager
-- Discord bot
-- Teach people how to write code
 
 ## Skill tree
-
 More like messing around pretending to know stuff
 - Games
 	- Starcraft II
@@ -25,7 +27,7 @@ More like messing around pretending to know stuff
 	- osu
 		- 100 pp
 - Anime
-	- yee
+	- Watched a bunch
 - Programming / Techs
 	- Set up Hugo site (this)
 	- Competitive Programming
@@ -34,5 +36,5 @@ More like messing around pretending to know stuff
 
 ## Some other folks
 Bh641: [YouTube](https://www.youtube.com/channel/UCj1owo1n1tkOhZu_JfbKp0A) \
-Skis: [YouTube](https://www.youtube.com/channel/UC26gxLD2tk8hHf-0bhhbWnQ)
+Skis: [YouTube](https://www.youtube.com/channel/UC26gxLD2tk8hHf-0bhhbWnQ) \
 Augustin: [augustinlanglet.com](https://www.augustinlanglet.com/) \
