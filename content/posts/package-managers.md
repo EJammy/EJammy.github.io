@@ -8,6 +8,8 @@ ShowToc: false
 ---
 
 
+A week ago I was installing homebrew on my friend's computer and she had no idea what I was doing (not that I actually know what I'm doing), so I think it's a good time to write a guide.
+
 > A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.
 > 
 > -- *[Wikipedia](https://en.wikipedia.org/wiki/Package_manager)*
@@ -16,8 +18,28 @@ Basically, package managers install softwares (packages) on your computer, kind 
 
 ### "Ok so why wouldn't I just download stuff off the internet."
 
-- Dependencies
-steam
+#### Dependencies
+Let's say you build an app with Python and you want to distribute it. In this case, the user would need Python to run your app. You have to options:
+- Bundle Python with your app: every software that uses Python have its own copy of Python -> waste lots of disk space
+- Have the user install Python
+These two solution seems fine... until you realize that your app also needs a specific graphics library, cURL to download files off the internet, and ... you get the idea.
+
+The concept of dependencies solve this issue by looking for all the software your app 'depends on' and fetching them. Each those software might even have their own dependencies, creating a dependencies tree.
+
+#### Security
+Package managers fetch software from fixed sources, which may be vetted by a trusted third party. In addition, they use [checksums](https://en.wikipedia.org/wiki/Checksum) and [digital certificates](https://en.wikipedia.org/wiki/Digital_certificate) to verify downloads
+
+#### Command Line!
+You can use package managers in the command line (often, this is the only way!). Doing so elevates you to another level, above the normies that click gui apps with their cursor.
+
+### All the package managers
+#### Linux
+Package managers are a core part of many Linux systems. Every Linux distribution has their own package manager. For example, `apt` for Debian, Ubuntu, and Linux Mint; `pacman` for Arch; `pamac` for Manjaro; and `dnf` for Fedora. They are the main way of getting softwares.
+
+#### MacOS and Windows
+[Homebrew](https://brew.sh/) for Mac and [Chocolatey](https://chocolatey.org/) for Windows! Apparently Windows Package Manager is a thing too?
+
+#### For Programming Languages
+Package managers shines when writing code, when you want to use a library, which might depend on other libraries. Many modern programming languages use a package manager: npm (JavaScript), pip (Python), cargo (rust) just to name a few.
 
 
-<!-- A week ago I was installing homebrew on my friend's computer and she had no idea what I was doing (not that I actually know what I'm doing), so I think it's a good idea to write a guide. -->
