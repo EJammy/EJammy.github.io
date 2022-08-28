@@ -18,6 +18,14 @@ A jar of jam with an e. I know how to type letters and symbols to make computer 
 
 ## Skill tree
 More like messing around pretending to know stuff
+- Programming / Techs
+	- Set up Hugo site (this)
+	- VEX robotics in high school
+		- [Instagram](https://www.instagram.com/team14683a/)
+		- Build robots and compete
+	- Competitive Programming
+		- Solve coding problems, get ac, gain internet points
+		- Expert on codeforces ([EJam](https://codeforces.com/profile/ejam))
 - Games
 	- Starcraft II
 		- Zerg gold
@@ -29,13 +37,8 @@ More like messing around pretending to know stuff
 		- 100 pp
 - Anime
 	- Watched a bunch
-- Programming / Techs
-	- Set up Hugo site (this)
-	- Competitive Programming
-		- Solve coding problems, get ac, gain internet points
-		- Expert on codeforces ([EJam](https://codeforces.com/profile/ejam))
 
 ## Some other folks
 Bh641: [YouTube](https://www.youtube.com/channel/UCj1owo1n1tkOhZu_JfbKp0A) \
 Skis: [YouTube](https://www.youtube.com/channel/UC26gxLD2tk8hHf-0bhhbWnQ) \
-Augustin: [augustinlanglet.com](https://www.augustinlanglet.com/) \
+Augustin: [augustinlanglet.com](https://www.augustinlanglet.com/)
