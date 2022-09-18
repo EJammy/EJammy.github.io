@@ -2,7 +2,7 @@
 title: "Linux Troubleshooting Guide"
 date: 2022-09-05T15:59:55-07:00
 draft: true
-tags: []
+tags: ['linux']
 categories: []
 ShowToc: false
 ---

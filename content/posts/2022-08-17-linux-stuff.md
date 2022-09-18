@@ -1,7 +1,7 @@
 ---
 title: "Installing Linux"
 date: 2022-08-17T21:24:03-07:00
-draft: true
+draft: false
 tags: []
 categories: []
 ShowToc: false
@@ -50,8 +50,8 @@ Checklists:
 - [ ] gestures
 - [ ] fix audio: https://asus-linux.org/blog/sound-2021-01-11/
 - [x] firewall
-- [ ] hibernate
-- [ ] graphics driver
+- [x] hibernate
+- [?] graphics driver
 
 Extras:
 - [ ] setup some hotkeys (fan, keyboard aura, screenhot...)
@@ -59,6 +59,11 @@ Extras:
 
 ## General
 ### Desktop environment
+KDE is great! All the software is amazing too! KDE softwares are so underrated. You never find Kate when looking for text editors.
+
+- Set darkmode
+- Increase keyboard repeat rate
+- Remap caps lock?
 
 ### Input methods
 Followed Arch wiki (used fcitx5)

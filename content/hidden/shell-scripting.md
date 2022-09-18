@@ -2,11 +2,10 @@
 title: "Shell Scripting"
 date: 2022-08-31T22:59:48-07:00
 draft: true
-tags: []
-categories: []
+tags: ['linux', 'programming']
+categories: ['hidden']
 ShowToc: false
 ---
-
 
 Shell scripting notes (mostly zsh)
 

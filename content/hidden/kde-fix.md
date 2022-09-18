@@ -1,9 +1,9 @@
 ---
 title: "Fixing My KDE issues"
 date: 2022-09-09T10:10:24-07:00
-draft: true
-tags: []
-categories: []
+draft: false
+tags: ['linux']
+categories: ['hidden']
 ShowToc: false
 ---
 
