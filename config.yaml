@@ -4,12 +4,23 @@ title: EJam's Space
 theme: hugo-PaperMod
 
 params:
+  profileMode:
+    enabled: true
+    subtitle: "🚧 Under Construction 🚧"
+    buttons:
+      - name: Posts
+        url: "/posts"
   mainSections:
   - posts
   - docs
+  comments: true
 
 menu:
   main:
+    - identifier: posts
+      name: "Posts"
+      url: "/posts"
+      weight: 5
     - identifier: categories
       name: Categories
       url: /categories/
@@ -24,3 +35,4 @@ menu:
       weight: 0
 
 googleAnalytics: G-TBJXCCN715
+disqusShortname: ejammy
