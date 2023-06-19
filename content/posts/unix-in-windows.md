@@ -1,7 +1,7 @@
 ---
 title: "Unix in Windows (not wsl)"
 date: 2023-06-19T08:58:51+08:00
-draft: true
+draft: false
 tags: ['programming', 'software', 'Linux']
 categories: ['tech']
 ShowToc: false

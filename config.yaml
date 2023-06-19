@@ -6,7 +6,7 @@ theme: hugo-PaperMod
 params:
   profileMode:
     enabled: true
-    subtitle: "🚧 Under Construction 🚧"
+    subtitle: "I type stuff and hope cool things come out"
     buttons:
       - name: Posts
         url: "/posts"
