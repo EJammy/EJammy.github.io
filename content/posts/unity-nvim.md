@@ -43,3 +43,6 @@ Setting the editor to vscode in Unity and generating the project files worked. T
 - UI scale is different from Windows.
 - lsp does not work for new files --> restart lsp / neovim
 - Visual Studio seems to still have the best support
+
+## Acknowledgement
+https://chrislabarge.com/posts/neovim-unity-engine/

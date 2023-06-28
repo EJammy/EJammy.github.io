@@ -38,6 +38,9 @@ More like messing around pretending to know stuff
 - Anime
 	- Watched a bunch
 
+## Other stuff I can do
+- Beat [Google minesweeper] in 9 seconds
+
 ## Some other folks
 Bh641: [YouTube](https://www.youtube.com/channel/UCj1owo1n1tkOhZu_JfbKp0A) \
 Skis: [YouTube](https://www.youtube.com/channel/UC26gxLD2tk8hHf-0bhhbWnQ) \
