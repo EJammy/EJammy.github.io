@@ -70,3 +70,9 @@ This is actually just repackaged MSYS2
 # TODO:
 - Benchmark. After testing I can change the title to "Faster than wsl"
 - Develop my dot files
+
+- sed '/log/' vs fd -exec sed '/log/'
+- adb
+- ripgrep:
+ - unix: no lookahead
+ - Win: bad path

@@ -17,14 +17,22 @@ params:
 
 menu:
   main:
+    - identifier: playground
+      name: "Playground"
+      url: "/playground"
+      weight: 100
     - identifier: posts
       name: "Posts"
       url: "/posts"
-      weight: 5
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
+      weight: 1
+    - identifier: past-work
+      name: Past Work
+      url: /past-work
+      weight: 2
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+    #   weight: 10
     - identifier: tags
       name: Tags
       url: /tags/
@@ -33,6 +41,12 @@ menu:
       name: About
       url: /about
       weight: 0
+
+# render html
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 googleAnalytics: G-TBJXCCN715
 disqusShortname: ejammy

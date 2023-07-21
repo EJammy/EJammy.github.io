@@ -11,5 +11,7 @@ Some fun sites I found while exploring the internet
 
 - https://www.bullshitgenerator.com/
 - https://en.wikipedia.org/wiki/List_of_Google_Easter_eggs
+- http://weavesilk.com/
+- https://www.linerider.com/
 
 May or may not update with my bookmarks
