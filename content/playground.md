@@ -19,7 +19,10 @@ Script tag from [cdnjs.com](https://cdnjs.com/libraries/canvas-nest.js/2.0.4) wi
 <!-- <script src="https://raw.githubusercontent.com/hustcc/canvas-nest.js/master/dist/canvas-nest.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
 <!-- https://cdnjs.com/libraries/canvas-nest.js/1.0.1 -->
-<script color="175,140,240" opacity=0.5 src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js" integrity="sha512-P+NGabN/TJDOnCVOFJO+E06TBm4i+M8dTT91lWg/8UpwLrzicEXIypmABPpA47D0x6r+yxFHjYIZKWhc1h7xlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script color="175,140,240" opacity=0.6 src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js" integrity="sha512-P+NGabN/TJDOnCVOFJO+E06TBm4i+M8dTT91lWg/8UpwLrzicEXIypmABPpA47D0x6r+yxFHjYIZKWhc1h7xlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script color="255,255,255" opacity=0.6 src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js" integrity="sha512-P+NGabN/TJDOnCVOFJO+E06TBm4i+M8dTT91lWg/8UpwLrzicEXIypmABPpA47D0x6r+yxFHjYIZKWhc1h7xlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script color="255,122,112" opacity=0.6 src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js" integrity="sha512-P+NGabN/TJDOnCVOFJO+E06TBm4i+M8dTT91lWg/8UpwLrzicEXIypmABPpA47D0x6r+yxFHjYIZKWhc1h7xlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script color="138,255,112" opacity=0.6 src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js" integrity="sha512-P+NGabN/TJDOnCVOFJO+E06TBm4i+M8dTT91lWg/8UpwLrzicEXIypmABPpA47D0x6r+yxFHjYIZKWhc1h7xlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 ## Javascript chasing game I made in highschool
 https://github.com/EJammy/simple-javascript-chasing-game

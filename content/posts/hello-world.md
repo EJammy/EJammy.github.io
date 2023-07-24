@@ -43,4 +43,4 @@ $$
 >>> aaa
 
 ## About my last blog
-It was a mess. I basically wrote a bunch of rant 2:00 am stress out about applying to college... and it was in two languages, concurrently. So I just started a new one! I'll probably write some guides and show off some stuff I made. Hopefully it'll be fun :D
+It was a mess. I basically wrote a bunch of rant 2:00 am stress out. So I just started a new one! I'll probably write some guides and show off some stuff I made. Hopefully it'll be fun :D
