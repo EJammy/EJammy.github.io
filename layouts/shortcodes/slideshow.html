@@ -94,7 +94,7 @@
 </style>
 
 <script>
-let slideIndexes = [];
+let slideIndexes = {};
 
 function showSlides(n, slideClass, ord) {
   sId = slideIndexes[ord] + n;
@@ -111,6 +111,6 @@ function showSlides(n, slideClass, ord) {
 
 {{ end }} {{/* Page.Scratch.Get "galleryLoaded" */}}
 <script>
-  slideIndexes.push(0)
-  showSlides(0, {{ $slideshowId }}, {{ .Ordinal }})
+  slideIndexes[{{ .Ordinal }}] = 0;
+  showSlides(0, {{ $slideshowId }}, {{ .Ordinal }});
 </script>
