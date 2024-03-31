@@ -50,7 +50,7 @@ Matplotlib is very useful. Already used it twice.
 
 Finally time to actually implement it. First I worked on the feature in the C++ library. This took an afternoon. Then I have to put it in the Android app, which runs on the dash cam. This was pain. Adding a setting led to modifying something like 10 files, from UI to JNI cpp class to another Java class, all with getter and setter boilerplate. Thankfully my vim skill comes in handy and I can quickly copy from another feature and do some find and replace.
 
-Felt like 20 files edited. Actually... `git diff a62c98732--name-only | wc --line` show 37 files edited.
+Felt like 20 files edited. Actually... `git diff a62c98732 --name-only | wc --line` show 37 files edited.
 
 And that was just the internal app for testing. Still got to add it to the app for release.
 
@@ -59,3 +59,12 @@ I wonder if there's a better way, like generating some code and UI assets with s
 ## Reflection
 - Bored
 - No one cared
+
+- code is a bit of a mess
+- college project pretty accurate honestly
+- Used shit ton of Python
+
+## Skills
+Android development
+Java JNI
+Python

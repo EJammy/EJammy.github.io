@@ -108,3 +108,7 @@ function follow(object, target, dpos, spd) {
 </script>
 
 Frontend is ass. It took me half an hour to patch the game so it works when the pages scrolls. Somehow it's still buggy.
+
+## More random stuff
+𝕭
+b
