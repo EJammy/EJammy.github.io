@@ -9,7 +9,7 @@ ShowToc: false
 
 I was super into this project and ended up getting full credit! It's 12 am and I can't sleep, so I thought I'll try to reflect on this project a bit, both for myself but also maybe it will help someone. And I may just be trying brag a bit ~~so if any recruiter sees this, please hire me~~.
 
-Basically, 161 is the Berkeley computer security and my favorite class so far. In the [second project](https://fa23.cs161.org/proj2), you build a "secure file storage system." It's probably one of the most open-ended project. After the deadline, the autograder will test your solution for weakness. As such, this is not one of the project where most people get full credit or close to full credit. The distribution looks more like [this](https://assets.cs161.org/proj2/proj2-spec-sp23-distribution.png).
+Basically, 161 is the Berkeley computer security and my favorite class so far. In the [second project](https://fa23.cs161.org/proj2), you build a "secure file storage system." It's probably one of the most open-ended project in Berkeley. After the deadline, the autograder will test your solution for weakness. As such, this is not one of the project where most people get full credit or close to full credit. The distribution looks more like [this](https://assets.cs161.org/proj2/proj2-spec-sp23-distribution.png).
 
 A lot of times I get to around 90% for my projects (you usually have an idea of what you would get in other projects), and just call it a day. I guess because of the challenge in this one and the bragging right potential I ended up spending way more time.
 
@@ -46,7 +46,7 @@ I had this really fun idea (something similar is also suggested in the tips from
 
 Website TODO: add folding functionality for this chunck of code. Change tab size.
 
-```
+```go
 func TestLargeModifyAttack(t *testing.T) {
 	// run a bunch of client function
 
@@ -92,7 +92,7 @@ I used the go built-in testing framework instead of Ginkgo (the framework we wer
 Swapping caught a bunch of key reuse problems. Then I had a pretty genius idea where I changed my `secure_store_to_datastore` function and never had to worry about key reuse ever again.
 
 ## A nasty attack
-```
+```go
 func TestUserAttacks(t *testing.T) {
 	// Incorrect password attack:
 	// Replaces user in datastore with fake user, then, if user
@@ -129,7 +129,7 @@ func TestUserAttacks(t *testing.T) {
 	})
 }
 ```
-Honestly, I don't even know if this is valid or tested.
+Honestly, I don't even know if this is valid or tested by the autograder.
 
 ## Final thoughts
 While the exact setup is not really something that would exist in the real world, it was still a nice project. I spend way more time on it than other projects.
