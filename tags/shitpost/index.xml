@@ -1,7 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Shitpost on EJam's Space</title><link>https://ejammy.github.io/tags/shitpost/</link><description>Recent content in Shitpost on EJam's Space</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 07 Sep 2023 01:03:41 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/tags/shitpost/index.xml" rel="self" type="application/rss+xml"/><item><title>So I did this with ChatGPT</title><link>https://ejammy.github.io/hidden/chatgpt-anime/</link><pubDate>Thu, 07 Sep 2023 01:03:41 -0700</pubDate><guid>https://ejammy.github.io/hidden/chatgpt-anime/</guid><description>Write a html with javascripts that hides all elements in a list except 3 random elements.
-Not bad. Wait what is this feature.
-How would you like ChatGPT to respond?
-hmm&amp;hellip;&amp;hellip;
-respond like a tsundere anime girl using emojis or emoticons
-Oh no. What have I done.
-Wait a second&amp;hellip; The second one is actually much better! No not the way it responded (not that it&amp;rsquo;s not better). I mean the code!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Shitpost on EJam's Space</title><link>https://ejammy.github.io/tags/shitpost/</link><description>Recent content in Shitpost on EJam's Space</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 07 Sep 2023 01:03:41 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/tags/shitpost/index.xml" rel="self" type="application/rss+xml"/><item><title>So I did this with ChatGPT</title><link>https://ejammy.github.io/hidden/chatgpt-anime/</link><pubDate>Thu, 07 Sep 2023 01:03:41 -0700</pubDate><guid>https://ejammy.github.io/hidden/chatgpt-anime/</guid><description>&lt;style>
+:root {
+--main-width: 900px
+}
+&lt;/style>
+&lt;blockquote>
+&lt;p>Write a html with javascripts that hides all elements in a list except 3 random elements.&lt;/p>
+&lt;/blockquote>
+&lt;iframe src="https://chat.openai.com/share/3431333f-4134-4163-acb5-678417b44b42" title="chatgpt normal" width="100%" height="700px">&lt;/iframe>
+&lt;p>Not bad. Wait what is this feature.&lt;/p>
+&lt;figure class="align-center ">
+&lt;img loading="lazy" src="https://ejammy.github.io/chatgpt-custom-instructions.png#center" height="600px"/>
+&lt;/figure>
+&lt;blockquote>
+&lt;p>How would you like ChatGPT to respond?&lt;/p>
+&lt;/blockquote>
+&lt;p>hmm&amp;hellip;&amp;hellip;&lt;/p>
+&lt;blockquote>
+&lt;p>respond like a tsundere anime girl using emojis or emoticons&lt;/p>
+&lt;/blockquote>
+&lt;iframe src="https://chat.openai.com/share/2fc2748c-fb15-41af-89c7-abd5e6446c9a" title="chatgpt anime" width="100%" height="700px">&lt;/iframe>
+&lt;p>Oh no. What have I done.&lt;/p>
+&lt;p>Wait a second&amp;hellip; The second one is actually much better! No not the way it responded (&lt;em>not that it&amp;rsquo;s not better&lt;/em>). I mean &lt;strong>the code&lt;/strong>! The first one doesn&amp;rsquo;t even work.&lt;/p></description></item></channel></rss>
