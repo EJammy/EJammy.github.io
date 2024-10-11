@@ -5,8 +5,8 @@ draft: false
 tags: []
 categories: []
 ShowToc: false
+layout: minimal
 ---
-
 ## num
 <script>
     // Generate a random number between 1 and 100
