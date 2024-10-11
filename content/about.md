@@ -12,12 +12,17 @@ A jar of jam with an e. [Pintos](https://cs162.org/) enjoyer. [EvanBot](https://
 - Job search
 - Raspberry Pi pico W project
 
+![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)
+![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)
+[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
+
 ## Skill tree
 - Programming / Techs
     - Languages: C, C++, Python, Go, Rust, Bash, Lua, Kotlin, Java, C#, PHP, JavaScript, x86, RISC-V
     - Favorite language: Not sure, but not JavaScript
-    - OS: Arch Linux btw
+    - OS: Arch Linux btw, Win 10
     - Text editor: Neovim
+    - Indentation: 4 spaces, 3 spaces for lua, tabs for Go
 	- VEX robotics in high school
 		- [Instagram](https://www.instagram.com/team14683a/)
 		- Build robots and compete
