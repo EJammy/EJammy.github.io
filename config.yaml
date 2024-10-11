@@ -13,7 +13,7 @@ params:
   mainSections:
   - posts
   - docs
-  comments: true
+  comments: false
 
 menu:
   main:
