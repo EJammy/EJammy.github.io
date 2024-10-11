@@ -1,13 +1,11 @@
 ---
-title: "Some title here"
+title: "Temporary code for Non-RISD visitors"
 date: 2024-10-10T17:18:49-07:00
 draft: false
 tags: []
 categories: []
 ShowToc: false
 ---
-
-# Here's some number
 
 ## num
 <script>
