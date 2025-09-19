@@ -1,40 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hiddens on EJam's Space</title><link>https://ejammy.github.io/hidden/</link><description>Recent content in Hiddens on EJam's Space</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Oct 2024 17:18:49 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/hidden/index.xml" rel="self" type="application/rss+xml"/><item><title>Temporary code for Non-RISD visitors</title><link>https://ejammy.github.io/hidden/rng/</link><pubDate>Thu, 10 Oct 2024 17:18:49 -0700</pubDate><guid>https://ejammy.github.io/hidden/rng/</guid><description>&lt;h2 id="num">num&lt;/h2>
-&lt;script>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hiddens on EJam's Space</title><link>https://ejammy.github.io/hidden/</link><description>Recent content in Hiddens on EJam's Space</description><generator>Hugo -- 0.150.0</generator><language>en-us</language><lastBuildDate>Thu, 18 Sep 2025 20:51:40 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/hidden/index.xml" rel="self" type="application/rss+xml"/><item><title>Wordgen</title><link>https://ejammy.github.io/hidden/wordgen/</link><pubDate>Thu, 18 Sep 2025 20:51:40 -0700</pubDate><guid>https://ejammy.github.io/hidden/wordgen/</guid><description>&lt;!-- made by chatGPT, google gemini sucks--&gt;
+&lt;div id="vocab-container"&gt;
+&lt;button id="new-words-btn"&gt;🎲 New Words&lt;/button&gt;
+&lt;div id="words-list"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', async () =&gt; {
+// 1. Load wordlist from static JSON
+let wordlist = [];
+try {
+const res = await fetch('/wordlist.json');
+wordlist = await res.json();
+} catch (err) {
+console.error('Failed to load wordlist:', err);
+wordlist = ["aberration", "capricious"]; // fallback
+}
+const btn = document.getElementById('new-words-btn');
+const wordsListEl = document.getElementById('words-list');
+async function fetchDefinitions(word) {
+try {
+const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+const data = await res.json();
+const entries = [];
+data[0].meanings.forEach(m =&gt; {
+const pos = m.partOfSpeech || '';
+m.definitions.forEach(d =&gt; {
+entries.push({
+partOfSpeech: pos,
+definition: d.definition || '',
+example: d.example || ''
+});
+});
+});
+return entries.length ? entries : [{ partOfSpeech: '', definition: '(definition not available)', example: '' }];
+} catch {
+return [{ partOfSpeech: '', definition: '(definition not available)', example: '' }];
+}
+}
+function pickRandomUnique(count) {
+const shuffled = wordlist.slice().sort(() =&gt; Math.random() - 0.5);
+return shuffled.slice(0, count);
+}
+async function showRandomWords(count) {
+wordsListEl.textContent = "Loading...";
+const chosen = pickRandomUnique(Math.min(count, wordlist.length));
+const defsList = await Promise.all(chosen.map(fetchDefinitions));
+wordsListEl.innerHTML = chosen.map((word, i) =&gt; `
+&lt;div style="margin-bottom:1rem;"&gt;
+&lt;h3&gt;${word}&lt;/h3&gt;
+&lt;ul&gt;
+${defsList[i].map(d =&gt; `
+&lt;li&gt;
+${d.partOfSpeech ? `&lt;b&gt;${d.partOfSpeech}:&lt;/b&gt; ` : ''}${d.definition}
+${d.example ? `&lt;br&gt;&lt;i&gt;Example:&lt;/i&gt; "${d.example}"` : ''}
+&lt;/li&gt;
+`).join('')}
+&lt;/ul&gt;
+&lt;/div&gt;
+`).join('');
+}
+btn.addEventListener('click', () =&gt; showRandomWords(6));
+showRandomWords(6);
+});
+&lt;/script&gt;</description></item><item><title>Temporary code for Non-RISD visitors</title><link>https://ejammy.github.io/hidden/rng/</link><pubDate>Thu, 10 Oct 2024 17:18:49 -0700</pubDate><guid>https://ejammy.github.io/hidden/rng/</guid><description>&lt;h2 id="num"&gt;num&lt;/h2&gt;
+&lt;script&gt;
 // Generate a random number between 1 and 100
 var randomCode = Math.floor(Math.random() * 10000).toString().padStart(4, '0');
 // Put the random number into the element with id="num"
 document.getElementById("num").textContent = randomCode;
-&lt;/script></description></item><item><title>So I did this with ChatGPT</title><link>https://ejammy.github.io/hidden/chatgpt-anime/</link><pubDate>Thu, 07 Sep 2023 01:03:41 -0700</pubDate><guid>https://ejammy.github.io/hidden/chatgpt-anime/</guid><description>&lt;style>
+&lt;/script&gt;</description></item><item><title>So I did this with ChatGPT</title><link>https://ejammy.github.io/hidden/chatgpt-anime/</link><pubDate>Thu, 07 Sep 2023 01:03:41 -0700</pubDate><guid>https://ejammy.github.io/hidden/chatgpt-anime/</guid><description>&lt;style&gt;
 :root {
 --main-width: 900px
 }
-&lt;/style>
-&lt;blockquote>
-&lt;p>Write a html with javascripts that hides all elements in a list except 3 random elements.&lt;/p>
-&lt;/blockquote>
-&lt;iframe src="https://chat.openai.com/share/3431333f-4134-4163-acb5-678417b44b42" title="chatgpt normal" width="100%" height="700px">&lt;/iframe>
-&lt;p>Not bad. Wait what is this feature.&lt;/p>
-&lt;figure class="align-center ">
-&lt;img loading="lazy" src="https://ejammy.github.io/chatgpt-custom-instructions.png#center" height="600px"/>
-&lt;/figure>
-&lt;blockquote>
-&lt;p>How would you like ChatGPT to respond?&lt;/p>
-&lt;/blockquote>
-&lt;p>hmm&amp;hellip;&amp;hellip;&lt;/p>
-&lt;blockquote>
-&lt;p>respond like a tsundere anime girl using emojis or emoticons&lt;/p>
-&lt;/blockquote>
-&lt;iframe src="https://chat.openai.com/share/2fc2748c-fb15-41af-89c7-abd5e6446c9a" title="chatgpt anime" width="100%" height="700px">&lt;/iframe>
-&lt;p>Oh no. What have I done.&lt;/p>
-&lt;p>Wait a second&amp;hellip; The second one is actually much better! No not the way it responded (&lt;em>not that it&amp;rsquo;s not better&lt;/em>). I mean &lt;strong>the code&lt;/strong>! The first one doesn&amp;rsquo;t even work.&lt;/p></description></item><item><title>Fixing My KDE issues</title><link>https://ejammy.github.io/hidden/kde-fix/</link><pubDate>Fri, 09 Sep 2022 10:10:24 -0700</pubDate><guid>https://ejammy.github.io/hidden/kde-fix/</guid><description>&lt;p>Create new user
-&lt;code>sudo cp -r /home/foo/.config ~/foo-config&lt;/code>
-&lt;code>sudo chown -R connorcc ~/foo-config&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>for i in *; do\
+&lt;/style&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Write a html with javascripts that hides all elements in a list except 3 random elements.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;iframe src="https://chat.openai.com/share/3431333f-4134-4163-acb5-678417b44b42" title="chatgpt normal" width="100%" height="700px"&gt;&lt;/iframe&gt;
+&lt;p&gt;Not bad. Wait what is this feature.&lt;/p&gt;
+&lt;figure class="align-center "&gt;
+&lt;img loading="lazy" src="https://ejammy.github.io/chatgpt-custom-instructions.png#center" height="600px"/&gt;
+&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How would you like ChatGPT to respond?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;hmm&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;respond like a tsundere anime girl using emojis or emoticons&lt;/p&gt;&lt;/blockquote&gt;
+&lt;iframe src="https://chat.openai.com/share/2fc2748c-fb15-41af-89c7-abd5e6446c9a" title="chatgpt anime" width="100%" height="700px"&gt;&lt;/iframe&gt;
+&lt;p&gt;Oh no. What have I done.&lt;/p&gt;
+&lt;p&gt;Wait a second&amp;hellip; The second one is actually much better! No not the way it responded (&lt;em&gt;not that it&amp;rsquo;s not better&lt;/em&gt;). I mean &lt;strong&gt;the code&lt;/strong&gt;! The first one doesn&amp;rsquo;t even work.&lt;/p&gt;</description></item><item><title>Fixing My KDE issues</title><link>https://ejammy.github.io/hidden/kde-fix/</link><pubDate>Fri, 09 Sep 2022 10:10:24 -0700</pubDate><guid>https://ejammy.github.io/hidden/kde-fix/</guid><description>&lt;p&gt;Create new user
+&lt;code&gt;sudo cp -r /home/foo/.config ~/foo-config&lt;/code&gt;
+&lt;code&gt;sudo chown -R connorcc ~/foo-config&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;for i in *; do\
 diff ~/.config/$i ~/foo-config/$i &amp;gt; /dev/null || echo $i\
 done &amp;gt; test
-&lt;/code>&lt;/pre>&lt;p>do experiment (backup first!)&lt;/p>
-&lt;pre tabindex="0">&lt;code>mv kwinrc kwinrc.BAK
-&lt;/code>&lt;/pre>&lt;p>Logout and log back in&lt;/p>
-&lt;pre tabindex="0">&lt;code>[Compositing]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;do experiment (backup first!)&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;mv kwinrc kwinrc.BAK
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Logout and log back in&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[Compositing]
 OpenGLIsUnsafe=false
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Software on EJam's Space</title><link>https://ejammy.github.io/tags/software/</link><description>Recent content in Software on EJam's Space</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Jun 2023 08:58:51 +0800</lastBuildDate><atom:link href="https://ejammy.github.io/tags/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Unix in Windows (not wsl)</title><link>https://ejammy.github.io/posts/unix-in-windows/</link><pubDate>Mon, 19 Jun 2023 08:58:51 +0800</pubDate><guid>https://ejammy.github.io/posts/unix-in-windows/</guid><description>&lt;p>&lt;img loading="lazy" src="https://imgs.xkcd.com/comics/python_environment.png" alt="xkcd python comic" />
-&lt;/p>
-&lt;p>&lt;em>me setting up Python&amp;hellip; except also include Python from Microsoft Store, wsl, Chocolatey, and MSYS2.&lt;/em>&lt;/p>
-&lt;p>I make a mess when setting up Windows for writing code. I&amp;rsquo;ve always felt like developing on Windows is a pain, but I think I have decided the best setup: MSYS2.&lt;/p>
-&lt;h1 id="what-i-want">What I want&lt;/h1>
-&lt;ul>
-&lt;li>Unix tools: bash shell, cat, grep, less&amp;hellip; etc.&lt;/li>
-&lt;li>Package manager&lt;/li>
-&lt;li>Speed&lt;/li>
-&lt;/ul>
-&lt;h1 id="msys2httpswwwmsys2org">&lt;a href="https://www.msys2.org/">MSYS2&lt;/a>&lt;/h1>
-&lt;p>I think I stumbled upon this first when setting up c++ on vscode. If you&amp;rsquo;ve installed git on Windows, that is based on MSYS2.&lt;/p></description></item><item><title>Package Managers: Getting Softwares on Linux (and MacOS / Windows)</title><link>https://ejammy.github.io/posts/package-managers/</link><pubDate>Sun, 10 Apr 2022 22:02:28 +0800</pubDate><guid>https://ejammy.github.io/posts/package-managers/</guid><description>&lt;p>&lt;img loading="lazy" src="https://ejammy.github.io/carbon.svg" alt="pacman in terminal" />
-&lt;/p>
-&lt;p>A week ago I was installing homebrew on my friend&amp;rsquo;s computer and she had no idea what I was doing (not that I actually know what I&amp;rsquo;m doing), so I think it&amp;rsquo;s a good time to write a guide.&lt;/p>
-&lt;blockquote>
-&lt;p>A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Software on EJam's Space</title><link>https://ejammy.github.io/tags/software/</link><description>Recent content in Software on EJam's Space</description><generator>Hugo -- 0.150.0</generator><language>en-us</language><lastBuildDate>Mon, 19 Jun 2023 08:58:51 +0800</lastBuildDate><atom:link href="https://ejammy.github.io/tags/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Unix in Windows (not wsl)</title><link>https://ejammy.github.io/posts/unix-in-windows/</link><pubDate>Mon, 19 Jun 2023 08:58:51 +0800</pubDate><guid>https://ejammy.github.io/posts/unix-in-windows/</guid><description>&lt;p&gt;&lt;img alt="xkcd python comic" loading="lazy" src="https://imgs.xkcd.com/comics/python_environment.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;me setting up Python&amp;hellip; except also include Python from Microsoft Store, wsl, Chocolatey, and MSYS2.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I make a mess when setting up Windows for writing code. I&amp;rsquo;ve always felt like developing on Windows is a pain, but I think I have decided the best setup: MSYS2.&lt;/p&gt;
+&lt;h1 id="what-i-want"&gt;What I want&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Unix tools: bash shell, cat, grep, less&amp;hellip; etc.&lt;/li&gt;
+&lt;li&gt;Package manager&lt;/li&gt;
+&lt;li&gt;Speed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="msys2"&gt;&lt;a href="https://www.msys2.org/"&gt;MSYS2&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I think I stumbled upon this first when setting up c++ on vscode. If you&amp;rsquo;ve installed git on Windows, that is based on MSYS2.&lt;/p&gt;</description></item><item><title>Package Managers: Getting Softwares on Linux (and MacOS / Windows)</title><link>https://ejammy.github.io/posts/package-managers/</link><pubDate>Sun, 10 Apr 2022 22:02:28 +0800</pubDate><guid>https://ejammy.github.io/posts/package-managers/</guid><description>&lt;p&gt;&lt;img alt="pacman in terminal" loading="lazy" src="https://ejammy.github.io/carbon.svg"&gt;&lt;/p&gt;
+&lt;p&gt;A week ago I was installing homebrew on my friend&amp;rsquo;s computer and she had no idea what I was doing (not that I actually know what I&amp;rsquo;m doing), so I think it&amp;rsquo;s a good time to write a guide.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.&lt;/p&gt;</description></item></channel></rss>

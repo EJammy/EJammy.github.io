@@ -1,28 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on EJam's Space</title><link>https://ejammy.github.io/posts/</link><description>Recent content in Posts on EJam's Space</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 14 Mar 2024 09:56:44 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>CS161 Project 2</title><link>https://ejammy.github.io/posts/161-project2/</link><pubDate>Thu, 14 Mar 2024 09:56:44 -0700</pubDate><guid>https://ejammy.github.io/posts/161-project2/</guid><description>&lt;p>I was super into this project and ended up getting full credit! It&amp;rsquo;s 12 am and I can&amp;rsquo;t sleep, so I thought I&amp;rsquo;ll try to reflect on this project a bit, both for myself but also maybe it will help someone. And I may just be trying brag a bit &lt;del>so if any recruiter sees this, please hire me&lt;/del>.&lt;/p>
-&lt;p>Basically, 161 is the Berkeley computer security and my favorite class so far. In the &lt;a href="https://fa23.cs161.org/proj2">second project&lt;/a>, you build a &amp;ldquo;secure file storage system.&amp;rdquo; It&amp;rsquo;s probably one of the most open-ended project in Berkeley. After the deadline, the autograder will test your solution for weakness. As such, this is not one of the project where most people get full credit or close to full credit. The distribution looks more like &lt;a href="https://assets.cs161.org/proj2/proj2-spec-sp23-distribution.png">this&lt;/a>.&lt;/p></description></item><item><title>Internet fun</title><link>https://ejammy.github.io/posts/internet_fun/</link><pubDate>Wed, 28 Jun 2023 17:24:34 +0800</pubDate><guid>https://ejammy.github.io/posts/internet_fun/</guid><description>&lt;p>Some fun sites I found while exploring the internet&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.bullshitgenerator.com/">https://www.bullshitgenerator.com/&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/List_of_Google_Easter_eggs">https://en.wikipedia.org/wiki/List_of_Google_Easter_eggs&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://weavesilk.com/">http://weavesilk.com/&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.linerider.com/">https://www.linerider.com/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>May or may not update with my bookmarks&lt;/p></description></item><item><title>Unix in Windows (not wsl)</title><link>https://ejammy.github.io/posts/unix-in-windows/</link><pubDate>Mon, 19 Jun 2023 08:58:51 +0800</pubDate><guid>https://ejammy.github.io/posts/unix-in-windows/</guid><description>&lt;p>&lt;img loading="lazy" src="https://imgs.xkcd.com/comics/python_environment.png" alt="xkcd python comic" />
-&lt;/p>
-&lt;p>&lt;em>me setting up Python&amp;hellip; except also include Python from Microsoft Store, wsl, Chocolatey, and MSYS2.&lt;/em>&lt;/p>
-&lt;p>I make a mess when setting up Windows for writing code. I&amp;rsquo;ve always felt like developing on Windows is a pain, but I think I have decided the best setup: MSYS2.&lt;/p>
-&lt;h1 id="what-i-want">What I want&lt;/h1>
-&lt;ul>
-&lt;li>Unix tools: bash shell, cat, grep, less&amp;hellip; etc.&lt;/li>
-&lt;li>Package manager&lt;/li>
-&lt;li>Speed&lt;/li>
-&lt;/ul>
-&lt;h1 id="msys2httpswwwmsys2org">&lt;a href="https://www.msys2.org/">MSYS2&lt;/a>&lt;/h1>
-&lt;p>I think I stumbled upon this first when setting up c++ on vscode. If you&amp;rsquo;ve installed git on Windows, that is based on MSYS2.&lt;/p></description></item><item><title>Setting up Unity with Linux and Neovim</title><link>https://ejammy.github.io/posts/unity-nvim/</link><pubDate>Sat, 17 Sep 2022 23:53:51 -0700</pubDate><guid>https://ejammy.github.io/posts/unity-nvim/</guid><description>&lt;p>&lt;img loading="lazy" src="https://ejammy.github.io/unity-linux.png" alt="Unity Screenshot" />
-&lt;/p>
-&lt;h2 id="unity-ui-scale">Unity UI scale&lt;/h2>
-&lt;p>Unity UI was too small at first. I think this has something to do with dpi and screen resolution. A lot of information on &lt;a href="https://wiki.archlinux.org/title/HiDPI">https://wiki.archlinux.org/title/HiDPI&lt;/a>.&lt;/p>
-&lt;p>Adding desktop entry at: &lt;code>~/.local/share/applications/unity-launch.desktop&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>[Desktop Entry]
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on EJam's Space</title><link>https://ejammy.github.io/posts/</link><description>Recent content in Posts on EJam's Space</description><generator>Hugo -- 0.150.0</generator><language>en-us</language><lastBuildDate>Thu, 14 Mar 2024 09:56:44 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>CS161 Project 2</title><link>https://ejammy.github.io/posts/161-project2/</link><pubDate>Thu, 14 Mar 2024 09:56:44 -0700</pubDate><guid>https://ejammy.github.io/posts/161-project2/</guid><description>&lt;p&gt;I was super into this project and ended up getting full credit! It&amp;rsquo;s 12 am and I can&amp;rsquo;t sleep, so I thought I&amp;rsquo;ll try to reflect on this project a bit, both for myself but also maybe it will help someone. And I may just be trying brag a bit &lt;del&gt;so if any recruiter sees this, please hire me&lt;/del&gt;.&lt;/p&gt;
+&lt;p&gt;Basically, 161 is the Berkeley computer security and my favorite class so far. In the &lt;a href="https://fa23.cs161.org/proj2"&gt;second project&lt;/a&gt;, you build a &amp;ldquo;secure file storage system.&amp;rdquo; It&amp;rsquo;s probably one of the most open-ended project in Berkeley. After the deadline, the autograder will test your solution for weakness. As such, this is not one of the project where most people get full credit or close to full credit. The distribution looks more like &lt;a href="https://assets.cs161.org/proj2/proj2-spec-sp23-distribution.png"&gt;this&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Internet fun</title><link>https://ejammy.github.io/posts/internet_fun/</link><pubDate>Wed, 28 Jun 2023 17:24:34 +0800</pubDate><guid>https://ejammy.github.io/posts/internet_fun/</guid><description>&lt;p&gt;Some fun sites I found while exploring the internet&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bullshitgenerator.com/"&gt;https://www.bullshitgenerator.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/List_of_Google_Easter_eggs"&gt;https://en.wikipedia.org/wiki/List_of_Google_Easter_eggs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://weavesilk.com/"&gt;http://weavesilk.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linerider.com/"&gt;https://www.linerider.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;May or may not update with my bookmarks&lt;/p&gt;</description></item><item><title>Unix in Windows (not wsl)</title><link>https://ejammy.github.io/posts/unix-in-windows/</link><pubDate>Mon, 19 Jun 2023 08:58:51 +0800</pubDate><guid>https://ejammy.github.io/posts/unix-in-windows/</guid><description>&lt;p&gt;&lt;img alt="xkcd python comic" loading="lazy" src="https://imgs.xkcd.com/comics/python_environment.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;me setting up Python&amp;hellip; except also include Python from Microsoft Store, wsl, Chocolatey, and MSYS2.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I make a mess when setting up Windows for writing code. I&amp;rsquo;ve always felt like developing on Windows is a pain, but I think I have decided the best setup: MSYS2.&lt;/p&gt;
+&lt;h1 id="what-i-want"&gt;What I want&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Unix tools: bash shell, cat, grep, less&amp;hellip; etc.&lt;/li&gt;
+&lt;li&gt;Package manager&lt;/li&gt;
+&lt;li&gt;Speed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="msys2"&gt;&lt;a href="https://www.msys2.org/"&gt;MSYS2&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I think I stumbled upon this first when setting up c++ on vscode. If you&amp;rsquo;ve installed git on Windows, that is based on MSYS2.&lt;/p&gt;</description></item><item><title>Setting up Unity with Linux and Neovim</title><link>https://ejammy.github.io/posts/unity-nvim/</link><pubDate>Sat, 17 Sep 2022 23:53:51 -0700</pubDate><guid>https://ejammy.github.io/posts/unity-nvim/</guid><description>&lt;p&gt;&lt;img alt="Unity Screenshot" loading="lazy" src="https://ejammy.github.io/unity-linux.png"&gt;&lt;/p&gt;
+&lt;h2 id="unity-ui-scale"&gt;Unity UI scale&lt;/h2&gt;
+&lt;p&gt;Unity UI was too small at first. I think this has something to do with dpi and screen resolution. A lot of information on &lt;a href="https://wiki.archlinux.org/title/HiDPI"&gt;https://wiki.archlinux.org/title/HiDPI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Adding desktop entry at: &lt;code&gt;~/.local/share/applications/unity-launch.desktop&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[Desktop Entry]
 Name=Unity
 Exec=GDK_SCALE=2 GDK_DPI_SCALE=0.5 /home/connorcc/Unity/Hub/Editor/2021.3.3f1/Editor/Unity
 Terminal=false
@@ -30,52 +28,48 @@ Type=Application
 Icon=unityhub
 Comment=Unity, with scaling env
 Categories=Development;
-&lt;/code>&lt;/pre>&lt;h2 id="setting-up-vscode-first">Setting up vscode first&lt;/h2>
-&lt;p>Error message tells us to use the following setting: &lt;code>&amp;quot;omnisharp.useModernNet&amp;quot;: false&lt;/code>. Otherwise everything seems to work out of the box.&lt;/p></description></item><item><title>2022-8-27 College</title><link>https://ejammy.github.io/posts/2022-08-27-college/</link><pubDate>Sat, 27 Aug 2022 17:42:11 -0700</pubDate><guid>https://ejammy.github.io/posts/2022-08-27-college/</guid><description>&lt;p>First two weeks of college :D&lt;/p>
-&lt;h1 id="courses">Courses&lt;/h1>
-&lt;p>In elementry school people say middle school will be hard. In middle school people say high school will be hard. In high school people say AP will be hard. And now everyone&amp;rsquo;s saying college is going to be hard.&lt;/p>
-&lt;p>First week has bee fine, but I&amp;rsquo;ll see soon&amp;hellip;&lt;/p>
-&lt;h3 id="cs61a">CS61A&lt;/h3>
-&lt;p>Good class, good lecture, very over populated. Will be easy for me though since I have &lt;del>no life and stare at computers&lt;/del> some experience.&lt;/p></description></item><item><title>Installing Linux</title><link>https://ejammy.github.io/posts/2022-08-17-linux-stuff/</link><pubDate>Wed, 17 Aug 2022 21:24:03 -0700</pubDate><guid>https://ejammy.github.io/posts/2022-08-17-linux-stuff/</guid><description>&lt;p>Got a new laptop, ASUS Zephrus G15, for college, and first thing to do is to install linux :D&lt;/p>
-&lt;h1 id="distribution">Distribution&lt;/h1>
-&lt;p>I&amp;rsquo;ve used linux mint for a while and it&amp;rsquo;s really good, but debians packages are just not up to date enough for me and ppa are annoying to manage. Then I tried manjaro, and it was great! However I&amp;rsquo;ve heard from the street that manjaro is bad so I guess it&amp;rsquo;s time to install arch&lt;/p></description></item><item><title>Package Managers: Getting Softwares on Linux (and MacOS / Windows)</title><link>https://ejammy.github.io/posts/package-managers/</link><pubDate>Sun, 10 Apr 2022 22:02:28 +0800</pubDate><guid>https://ejammy.github.io/posts/package-managers/</guid><description>&lt;p>&lt;img loading="lazy" src="https://ejammy.github.io/carbon.svg" alt="pacman in terminal" />
-&lt;/p>
-&lt;p>A week ago I was installing homebrew on my friend&amp;rsquo;s computer and she had no idea what I was doing (not that I actually know what I&amp;rsquo;m doing), so I think it&amp;rsquo;s a good time to write a guide.&lt;/p>
-&lt;blockquote>
-&lt;p>A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.&lt;/p></description></item><item><title>Hello World (again?)</title><link>https://ejammy.github.io/posts/hello-world/</link><pubDate>Sat, 26 Mar 2022 01:29:24 +0800</pubDate><guid>https://ejammy.github.io/posts/hello-world/</guid><description>&lt;p>Hello!&lt;/p>
-&lt;h2 id="blogging--website--portfolio">Blogging / Website / Portfolio&lt;/h2>
-&lt;p>What is this place? I have no idea, but take a look!&lt;/p>
-&lt;p>Some Ideas:&lt;/p>
-&lt;ul>
-&lt;li>Write tutorials&lt;/li>
-&lt;li>Take notes&lt;/li>
-&lt;li>Personal wiki&lt;/li>
-&lt;li>Showoff&lt;/li>
-&lt;/ul>
-&lt;h2 id="testing">Testing&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="math">Math&lt;/h2>
-&lt;p>Some equations:
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="setting-up-vscode-first"&gt;Setting up vscode first&lt;/h2&gt;
+&lt;p&gt;Error message tells us to use the following setting: &lt;code&gt;&amp;quot;omnisharp.useModernNet&amp;quot;: false&lt;/code&gt;. Otherwise everything seems to work out of the box.&lt;/p&gt;</description></item><item><title>2022-8-27 College</title><link>https://ejammy.github.io/posts/2022-08-27-college/</link><pubDate>Sat, 27 Aug 2022 17:42:11 -0700</pubDate><guid>https://ejammy.github.io/posts/2022-08-27-college/</guid><description>&lt;p&gt;First two weeks of college :D&lt;/p&gt;
+&lt;h1 id="courses"&gt;Courses&lt;/h1&gt;
+&lt;p&gt;In elementry school people say middle school will be hard. In middle school people say high school will be hard. In high school people say AP will be hard. And now everyone&amp;rsquo;s saying college is going to be hard.&lt;/p&gt;
+&lt;p&gt;First week has bee fine, but I&amp;rsquo;ll see soon&amp;hellip;&lt;/p&gt;
+&lt;h3 id="cs61a"&gt;CS61A&lt;/h3&gt;
+&lt;p&gt;Good class, good lecture, very over populated. Will be easy for me though since I have &lt;del&gt;no life and stare at computers&lt;/del&gt; some experience.&lt;/p&gt;</description></item><item><title>Installing Linux</title><link>https://ejammy.github.io/posts/2022-08-17-linux-stuff/</link><pubDate>Wed, 17 Aug 2022 21:24:03 -0700</pubDate><guid>https://ejammy.github.io/posts/2022-08-17-linux-stuff/</guid><description>&lt;p&gt;Got a new laptop, ASUS Zephrus G15, for college, and first thing to do is to install linux :D&lt;/p&gt;
+&lt;h1 id="distribution"&gt;Distribution&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve used linux mint for a while and it&amp;rsquo;s really good, but debians packages are just not up to date enough for me and ppa are annoying to manage. Then I tried manjaro, and it was great! However I&amp;rsquo;ve heard from the street that manjaro is bad so I guess it&amp;rsquo;s time to install arch&lt;/p&gt;</description></item><item><title>Package Managers: Getting Softwares on Linux (and MacOS / Windows)</title><link>https://ejammy.github.io/posts/package-managers/</link><pubDate>Sun, 10 Apr 2022 22:02:28 +0800</pubDate><guid>https://ejammy.github.io/posts/package-managers/</guid><description>&lt;p&gt;&lt;img alt="pacman in terminal" loading="lazy" src="https://ejammy.github.io/carbon.svg"&gt;&lt;/p&gt;
+&lt;p&gt;A week ago I was installing homebrew on my friend&amp;rsquo;s computer and she had no idea what I was doing (not that I actually know what I&amp;rsquo;m doing), so I think it&amp;rsquo;s a good time to write a guide.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.&lt;/p&gt;</description></item><item><title>Hello World (again?)</title><link>https://ejammy.github.io/posts/hello-world/</link><pubDate>Sat, 26 Mar 2022 01:29:24 +0800</pubDate><guid>https://ejammy.github.io/posts/hello-world/</guid><description>&lt;p&gt;Hello!&lt;/p&gt;
+&lt;h2 id="blogging--website--portfolio"&gt;Blogging / Website / Portfolio&lt;/h2&gt;
+&lt;p&gt;What is this place? I have no idea, but take a look!&lt;/p&gt;
+&lt;p&gt;Some Ideas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write tutorials&lt;/li&gt;
+&lt;li&gt;Take notes&lt;/li&gt;
+&lt;li&gt;Personal wiki&lt;/li&gt;
+&lt;li&gt;Showoff&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="testing"&gt;Testing&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-c++" data-lang="c++"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="math"&gt;Math&lt;/h2&gt;
+&lt;p&gt;Some equations:
 $$
 \sum_{i=0}^ni=\frac{n*(n+1)}2
-$$&lt;/p>
-&lt;h1 id="title">Title&lt;/h1>
-&lt;h2 id="subtitle">Subtitle&lt;/h2>
-&lt;h3 id="headings">headings&lt;/h3>
-&lt;h4 id="headings-1">headings&lt;/h4>
-&lt;h5 id="headings-2">headings&lt;/h5>
-&lt;h6 id="headings-3">headings&lt;/h6>
-&lt;p>&lt;del>strike through&lt;/del> &lt;em>aaa&lt;/em> &lt;strong>bbb&lt;/strong>&lt;/p>
-&lt;blockquote>
-&lt;p>frperg zrffntr&amp;hellip; pbatengf!&lt;/p>
-&lt;blockquote>
-&lt;p>aa&lt;/p>
-&lt;blockquote>
-&lt;p>aaa&lt;/p>
-&lt;/blockquote>
-&lt;/blockquote>
-&lt;/blockquote>
-&lt;h2 id="about-my-last-blog">About my last blog&lt;/h2>
-&lt;p>It was a mess. I basically wrote a bunch of rant 2:00 am stress out. So I just started a new one! I&amp;rsquo;ll probably write some guides and show off some stuff I made. Hopefully it&amp;rsquo;ll be fun :D&lt;/p></description></item></channel></rss>
+$$&lt;/p&gt;
+&lt;h1 id="title"&gt;Title&lt;/h1&gt;
+&lt;h2 id="subtitle"&gt;Subtitle&lt;/h2&gt;
+&lt;h3 id="headings"&gt;headings&lt;/h3&gt;
+&lt;h4 id="headings-1"&gt;headings&lt;/h4&gt;
+&lt;h5 id="headings-2"&gt;headings&lt;/h5&gt;
+&lt;h6 id="headings-3"&gt;headings&lt;/h6&gt;
+&lt;p&gt;&lt;del&gt;strike through&lt;/del&gt; &lt;em&gt;aaa&lt;/em&gt; &lt;strong&gt;bbb&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;frperg zrffntr&amp;hellip; pbatengf!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;aa&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;aaa&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;
+&lt;h2 id="about-my-last-blog"&gt;About my last blog&lt;/h2&gt;
+&lt;p&gt;It was a mess. I basically wrote a bunch of rant 2:00 am stress out. So I just started a new one! I&amp;rsquo;ll probably write some guides and show off some stuff I made. Hopefully it&amp;rsquo;ll be fun :D&lt;/p&gt;</description></item></channel></rss>

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Neovim on EJam's Space</title><link>https://ejammy.github.io/tags/neovim/</link><description>Recent content in Neovim on EJam's Space</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Sep 2022 23:53:51 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/tags/neovim/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up Unity with Linux and Neovim</title><link>https://ejammy.github.io/posts/unity-nvim/</link><pubDate>Sat, 17 Sep 2022 23:53:51 -0700</pubDate><guid>https://ejammy.github.io/posts/unity-nvim/</guid><description>&lt;p>&lt;img loading="lazy" src="https://ejammy.github.io/unity-linux.png" alt="Unity Screenshot" />
-&lt;/p>
-&lt;h2 id="unity-ui-scale">Unity UI scale&lt;/h2>
-&lt;p>Unity UI was too small at first. I think this has something to do with dpi and screen resolution. A lot of information on &lt;a href="https://wiki.archlinux.org/title/HiDPI">https://wiki.archlinux.org/title/HiDPI&lt;/a>.&lt;/p>
-&lt;p>Adding desktop entry at: &lt;code>~/.local/share/applications/unity-launch.desktop&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>[Desktop Entry]
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Neovim on EJam's Space</title><link>https://ejammy.github.io/tags/neovim/</link><description>Recent content in Neovim on EJam's Space</description><generator>Hugo -- 0.150.0</generator><language>en-us</language><lastBuildDate>Sat, 17 Sep 2022 23:53:51 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/tags/neovim/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up Unity with Linux and Neovim</title><link>https://ejammy.github.io/posts/unity-nvim/</link><pubDate>Sat, 17 Sep 2022 23:53:51 -0700</pubDate><guid>https://ejammy.github.io/posts/unity-nvim/</guid><description>&lt;p&gt;&lt;img alt="Unity Screenshot" loading="lazy" src="https://ejammy.github.io/unity-linux.png"&gt;&lt;/p&gt;
+&lt;h2 id="unity-ui-scale"&gt;Unity UI scale&lt;/h2&gt;
+&lt;p&gt;Unity UI was too small at first. I think this has something to do with dpi and screen resolution. A lot of information on &lt;a href="https://wiki.archlinux.org/title/HiDPI"&gt;https://wiki.archlinux.org/title/HiDPI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Adding desktop entry at: &lt;code&gt;~/.local/share/applications/unity-launch.desktop&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[Desktop Entry]
 Name=Unity
 Exec=GDK_SCALE=2 GDK_DPI_SCALE=0.5 /home/connorcc/Unity/Hub/Editor/2021.3.3f1/Editor/Unity
 Terminal=false
@@ -11,5 +10,5 @@ Type=Application
 Icon=unityhub
 Comment=Unity, with scaling env
 Categories=Development;
-&lt;/code>&lt;/pre>&lt;h2 id="setting-up-vscode-first">Setting up vscode first&lt;/h2>
-&lt;p>Error message tells us to use the following setting: &lt;code>&amp;quot;omnisharp.useModernNet&amp;quot;: false&lt;/code>. Otherwise everything seems to work out of the box.&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="setting-up-vscode-first"&gt;Setting up vscode first&lt;/h2&gt;
+&lt;p&gt;Error message tells us to use the following setting: &lt;code&gt;&amp;quot;omnisharp.useModernNet&amp;quot;: false&lt;/code&gt;. Otherwise everything seems to work out of the box.&lt;/p&gt;</description></item></channel></rss>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hidden on EJam's Space</title><link>https://ejammy.github.io/categories/hidden/</link><description>Recent content in Hidden on EJam's Space</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 09 Sep 2022 10:10:24 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/categories/hidden/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixing My KDE issues</title><link>https://ejammy.github.io/hidden/kde-fix/</link><pubDate>Fri, 09 Sep 2022 10:10:24 -0700</pubDate><guid>https://ejammy.github.io/hidden/kde-fix/</guid><description>&lt;p>Create new user
-&lt;code>sudo cp -r /home/foo/.config ~/foo-config&lt;/code>
-&lt;code>sudo chown -R connorcc ~/foo-config&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>for i in *; do\
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hidden on EJam's Space</title><link>https://ejammy.github.io/categories/hidden/</link><description>Recent content in Hidden on EJam's Space</description><generator>Hugo -- 0.150.0</generator><language>en-us</language><lastBuildDate>Fri, 09 Sep 2022 10:10:24 -0700</lastBuildDate><atom:link href="https://ejammy.github.io/categories/hidden/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixing My KDE issues</title><link>https://ejammy.github.io/hidden/kde-fix/</link><pubDate>Fri, 09 Sep 2022 10:10:24 -0700</pubDate><guid>https://ejammy.github.io/hidden/kde-fix/</guid><description>&lt;p&gt;Create new user
+&lt;code&gt;sudo cp -r /home/foo/.config ~/foo-config&lt;/code&gt;
+&lt;code&gt;sudo chown -R connorcc ~/foo-config&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;for i in *; do\
 diff ~/.config/$i ~/foo-config/$i &amp;gt; /dev/null || echo $i\
 done &amp;gt; test
-&lt;/code>&lt;/pre>&lt;p>do experiment (backup first!)&lt;/p>
-&lt;pre tabindex="0">&lt;code>mv kwinrc kwinrc.BAK
-&lt;/code>&lt;/pre>&lt;p>Logout and log back in&lt;/p>
-&lt;pre tabindex="0">&lt;code>[Compositing]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;do experiment (backup first!)&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;mv kwinrc kwinrc.BAK
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Logout and log back in&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[Compositing]
 OpenGLIsUnsafe=false
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>
