@@ -1,0 +1,82 @@
+---
+title: "Wordgen"
+date: 2025-09-18T20:51:40-07:00
+draft: false
+tags: []
+categories: []
+ShowToc: false
+layout: minimal
+---
+<!-- made by chatGPT, google gemini sucks-->
+<div id="vocab-container">
+  <button id="new-words-btn">🎲 New Words</button>
+  <div id="words-list"></div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  // 1. Load wordlist from static JSON
+  let wordlist = [];
+  try {
+    const res = await fetch('/wordlist.json');
+    wordlist = await res.json();
+  } catch (err) {
+    console.error('Failed to load wordlist:', err);
+    wordlist = ["aberration", "capricious"]; // fallback
+  }
+
+  const btn = document.getElementById('new-words-btn');
+  const wordsListEl = document.getElementById('words-list');
+
+  async function fetchDefinitions(word) {
+    try {
+      const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+      const data = await res.json();
+      const entries = [];
+
+      data[0].meanings.forEach(m => {
+        const pos = m.partOfSpeech || '';
+        m.definitions.forEach(d => {
+          entries.push({
+            partOfSpeech: pos,
+            definition: d.definition || '',
+            example: d.example || ''
+          });
+        });
+      });
+
+      return entries.length ? entries : [{ partOfSpeech: '', definition: '(definition not available)', example: '' }];
+    } catch {
+      return [{ partOfSpeech: '', definition: '(definition not available)', example: '' }];
+    }
+  }
+
+  function pickRandomUnique(count) {
+    const shuffled = wordlist.slice().sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, count);
+  }
+
+  async function showRandomWords(count) {
+    wordsListEl.textContent = "Loading...";
+    const chosen = pickRandomUnique(Math.min(count, wordlist.length));
+    const defsList = await Promise.all(chosen.map(fetchDefinitions));
+
+    wordsListEl.innerHTML = chosen.map((word, i) => `
+      <div style="margin-bottom:1rem;">
+        <h3>${word}</h3>
+        <ul>
+          ${defsList[i].map(d => `
+            <li>
+              ${d.partOfSpeech ? `<b>${d.partOfSpeech}:</b> ` : ''}${d.definition}
+              ${d.example ? `<br><i>Example:</i> "${d.example}"` : ''}
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+    `).join('');
+  }
+
+  btn.addEventListener('click', () => showRandomWords(6));
+  showRandomWords(6);
+});
+</script>

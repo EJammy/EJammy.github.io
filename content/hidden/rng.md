@@ -11,7 +11,7 @@ layout: minimal
 <script>
     // Generate a random number between 1 and 100
     var randomCode = Math.floor(Math.random() * 10000).toString().padStart(4, '0');
-    
+
     // Put the random number into the element with id="num"
     document.getElementById("num").textContent = randomCode;
 </script>

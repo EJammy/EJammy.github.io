@@ -1,0 +1,92 @@
+---
+title: "Wordgen"
+date: 2025-09-18T20:51:40-07:00
+draft: true
+tags: []
+categories: []
+ShowToc: false
+layout: minimal
+---
+
+<section id="vocab-container" style="padding: 20px; border-radius: 8px;">
+  <div style="text-align: center; margin-bottom: 20px;">
+    <h2>GRE Vocabulary Word of the Day</h2>
+    <p>Improve your vocabulary with a random word from the list!</p>
+  </div>
+  <div id="word-card" style="padding: 20px; border: 1px solid #ccc; border-radius: 8px; ">
+    <h3 id="word-display">Click 'Get a New Word' to begin!</h3>
+    <p id="definition-display" style="font-style: italic; color: #555;"></p>
+  </div>
+  <div style="text-align: center; margin-top: 20px;">
+    <button id="new-word-btn" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Get a New Word</button>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  const newWordBtn = document.getElementById('new-word-btn');
+  const wordDisplay = document.getElementById('word-display');
+  const definitionDisplay = document.getElementById('definition-display');
+
+  // Function to fetch the word list from the JSON file
+  async function fetchWordList() {
+    try {
+      const response = await fetch('/wordlist.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return await response.json();
+    } catch (e) {
+      console.error('Could not fetch the word list:', e);
+      return null;
+    }
+  }
+
+  // Function to fetch definition from the dictionary API
+  async function fetchDefinition(word) {
+    wordDisplay.textContent = `${word}...`;
+    definitionDisplay.textContent = 'Fetching definition...';
+    try {
+      const apiResponse = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+      if (!apiResponse.ok) {
+        throw new Error(`HTTP error! status: ${apiResponse.status}`);
+      }
+      const data = await apiResponse.json();
+
+      // Check if the API returned a valid definition
+      if (Array.isArray(data) && data.length > 0) {
+        const firstMeaning = data[0].meanings[0];
+        const definition = firstMeaning.definitions[0].definition;
+        return definition;
+      } else {
+        return 'No definition found for this word.';
+      }
+    } catch (e) {
+      console.error('Could not fetch definition:', e);
+      return 'Error fetching definition.';
+    }
+  }
+
+  // Main function to get a random word and its definition
+  async function displayRandomWord() {
+    const wordList = await fetchWordList();
+    if (wordList && wordList.length > 0) {
+      const randomIndex = Math.floor(Math.random() * wordList.length);
+      const selectedWord = wordList[randomIndex];
+      
+      const definition = await fetchDefinition(selectedWord);
+      
+      wordDisplay.textContent = selectedWord;
+      definitionDisplay.textContent = definition;
+    } else {
+      wordDisplay.textContent = 'No words available.';
+      definitionDisplay.textContent = '';
+    }
+  }
+
+  // Event listener for the button click
+  newWordBtn.addEventListener('click', displayRandomWord);
+
+  // Initially display a random word when the page loads
+  displayRandomWord();
+});</script>
